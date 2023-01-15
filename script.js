@@ -1,4 +1,6 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-
-document.querySelector("body").appendChild(h2);
+function lighton(){
+   var el = document.getElementById("overlay")
+    if (el && el.style){
+        el.style.display = el.style.display != 'none'? 'none': ''
+    };
+}
